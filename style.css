@@ -148,3 +148,85 @@ header a:hover {
 .sub-random p {
   color: #515151;
 }
+
+/* -------- quote-section ---------- */
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px 0px;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  text-align: center;
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  max-width: 50%;
+}
+
+.quote-author {
+  font-weight: bold;
+  font-size: 25px;
+  color: #1f2937;
+}
+
+/* -------- last-section ---------- */
+
+.last-section {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+
+.contact-section {
+  display: flex;
+  align-items: flex-end;
+  gap: 120px;
+  background-color: #3882f6;
+  padding: 40px 90px;
+  border-radius: 10px;
+}
+
+.its-time {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.sign-up-for {
+  color: #e5e7eb;
+}
+
+.last-btn {
+  background-color: #3882f6;
+  color: white;
+  border: 2px solid white;
+  font-size: 20px;
+  padding: 10px 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  max-width: 130%;
+  border-radius: 10px;
+  transition: 0.12s all;
+  cursor: pointer;
+}
+
+.last-btn:hover {
+  padding: 10px 35px;
+}
+
+/* -------- footer ---------- */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  color: white;
+}
